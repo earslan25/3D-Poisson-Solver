@@ -4,6 +4,7 @@
 #include <cmath>
 #include <iostream>
 
+
 constexpr unsigned int WARMUP = 3;
 constexpr unsigned int TX = 80;
 constexpr unsigned int TY = 80;
@@ -13,6 +14,7 @@ constexpr double DY = 1.0 / (2.0*(double)TY);
 constexpr double DZ = 1.0 / (2.0*(double)TZ);
 constexpr double TOL = 1e-5;
 constexpr unsigned int MAX_ITER = 3000;
+
 
 int main(int argc, char **argv) {
     // init MPI
